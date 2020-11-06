@@ -1,0 +1,40 @@
+{
+	"manifest_version": 2,
+	"name": "__MSG_name__",
+	"description": "__MSG_description__",
+	"version": "1.0.0",
+	"default_locale": "en",
+	"update_url": "https://clients2.google.com/service/update2/crx",
+	"icons": {
+		"128": "icon.png"
+	},
+	"theme": {
+		"images": {
+			"theme_ntp_background": "images\/theme_ntp_background.png",
+			"theme_ntp_attribution": "images\/theme_ntp_attribution.png"
+		},
+		"colors": {
+			"frame": [255, 255, 255],
+			"frame_incognito": [0, 0, 0],
+			"frame_incognito_inactive" : [53, 54, 58],
+			"toolbar": [235, 90, 109],
+			"tab_text": [255, 255, 255],
+			"tab_background_text": [74, 74, 74],
+			"tab_background_text_inactive": [200, 200, 200],
+			"bookmark_text": [255, 255, 255],
+			"bookmark_text_inactive": [239, 181, 193],
+			"ntp_background": [255, 255, 255],
+			"ntp_text": [0, 0, 0],
+			"ntp_link": [255, 255, 255]
+		},
+		"tints": {
+			"buttons": [0, 0, 1],
+			"buttons_inactive": [-1, -1, 0.8]
+		},
+		"properties": {
+			"ntp_background_alignment": "top",
+			"ntp_background_repeat": "no-repeat",
+			"ntp_background_size": "contain"
+		}
+	}
+}
