@@ -13,6 +13,11 @@
 			"theme_ntp_background": "images\/theme_ntp_background.png",
 			"theme_ntp_attribution": "images\/theme_ntp_attribution.png"
 		},
+		"properties": {
+			"ntp_background_alignment": "top",
+			"ntp_background_repeat": "no-repeat",
+			"ntp_background_size": "contain"
+		},
 		"colors": {
 			"frame": [255, 255, 255],
 			"frame_incognito": [0, 0, 0],
@@ -24,17 +29,12 @@
 			"bookmark_text": [255, 255, 255],
 			"bookmark_text_inactive": [239, 181, 193],
 			"ntp_background": [255, 255, 255],
-			"ntp_text": [0, 0, 0],
+			"ntp_text": [29, 37, 46],
 			"ntp_link": [255, 255, 255]
 		},
 		"tints": {
 			"buttons": [0, 0, 1],
 			"buttons_inactive": [-1, -1, 0.8]
-		},
-		"properties": {
-			"ntp_background_alignment": "top",
-			"ntp_background_repeat": "no-repeat",
-			"ntp_background_size": "contain"
 		}
 	}
 }

@@ -1,20 +1,37 @@
-# "Unofficial" Init7 Chrome Rot Theme
+# "Unofficial" Init7 Web Browser Rot Themes
+> The unofficial Web Browser theme for Swiss Internet Service Provider - Init7
 
-[![Chrome Screenshot](chromium-screenshot.png)](https://chrome.google.com/webstore/search/Init7)
+[![Chrome Screenshot](chromium-screenshot.png)](https://chrome.google.com/webstore/detail/init7-red/dpknnolglkdbhlicgloigkoplpjenfje)
 
-## User Installation
-1. [Search for "Init7" on the Chrome Web Store](https://chrome.google.com/webstore/search/Init7)
+## User Install
+1. [**Chrome Web Store**](https://chrome.google.com/webstore/detail/init7-red/dpknnolglkdbhlicgloigkoplpjenfje) Chromium _(Brave, Chrome, Edge, etc.)_
+1. [**Mozilla Add-ons**](https://addons.mozilla.org/en-US/firefox/addon/init7-rot/)  Firefox
 
-## Developer Installation
+## Support
+- [Raise an issue](https://github.com/mountainash/Init7-WebBrowser-Theme/issues)
+
+## Developer Install & Debugging
+### Chromium
 1. Git clone this project
 1. In a Chromium based browser, open **Settings**
 1. Go to **Extensions**
 1. Switch on **Developer mode**
-1. **Load unpacked** and open this git repo clone
+1. **Load unpacked** and open the [`chromium/`](./chromium/) directory
 
-## Developer Help
+### Firefox
+1. Git clone this project
+1. Enter `about:debugging` into the address bar
+1. Click the **Load Temporary Add-on...** and open the `manifest.json` in the [`firefox/`](./firefox/) directory
+
+## Contributors Help
+### Theme Documentation
 - [Developer: Chrome Themes](https://developer.chrome.com/apps/themes)
 - [Chrome Theme Reference](https://docs.google.com/Doc?docid=0Aa86IE02TBXPZGtzZDU0NV85ZnFocnQzZGo)
+- [Firefox Theme MDN](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/theme)
+
+### Vendors Developer Dashboards
+- [Chrome Web Store](https://chrome.google.com/webstore/devconsole/)
+- [Mozilla Add-on Developer Hub](https://addons.mozilla.org/en-US/developers/)
 
 ### Definitions
 - `ntp` = "New Tab Page"
@@ -23,24 +40,22 @@
 ###  Theme Colors
 | Name | HEX | RGB |
 |---|---|---|
-| Rot | #EB5A6D | [235, 90, 109] |
-| White | #FFF | [255, 255, 255] |
-| Black | #000 | [255, 255, 255] |
+| Rot/Pink | `#EB5A6D` | `[235, 90, 109]` |
+| White | `#FFF` | `[255, 255, 255]` |
+| Black | `#000` | `[0, 0, 0]` |
 
 ### Tints Help
-> Tints are in Hue-Saturation-Lightness (HSL) format, using floating-point numbers in the range `0 - 1.0`:
+Tints are in Hue-Saturation-Lightness (HSL) format, using floating-point numbers in the range `0 - 1.0`:
 
 - **Hue** is an absolute value, with `0` and `1` being red.
 - **Saturation** is relative to the currently provided image. `0.5` is no change, `0` is totally desaturated, and `1` is full saturation.
 - **Lightness** is also relative, with `0.5` being no change, `0` as all pixels black, and `1` as all pixels white.
 
-> You can alternatively use `-1.0` for any of the HSL values to specify no change.
+You can alternatively use `-1.0` for any of the HSL values to specify no change.
+
+### Developer Wishlist
+- [ ] Hope that Browsers implement an inactive setting for bookmark text (eg. `colors.bookmark_text_inactive` or `tints.buttons_inactive`)
+- [ ] Hope that Chromium implements a background image size setting (eg. `properties.ntp_background_size`)
 
 ## NOTE
-- This theme has not been endorsed or approved by [Init7](https://www.init7.net/) - and as such they can't support it. [Raise an Issue](https://github.com/mountainash/Init7-WebBrowser-Theme/issues) if you have any problems or suggestions.
-
-## TODO:
-- [ ] Do a DE (German) localisation (open to contributions)
-- [ ] [Firefox Theme](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/theme)
-- [ ] Hope that Chromium implements an inactive setting for bookmark text (eg. `colors.bookmark_text_inactive` or `tints.buttons_inactive`)
-- [ ] Hope that Chromium implements a background image size setting (eg. `properties.ntp_background_size`)
+- This theme has not been endorsed or approved by [Init7](https://www.init7.net/) - and as such they can't support it. [Raise an issue](https://github.com/mountainash/Init7-WebBrowser-Theme/issues) if you have any problems or suggestions.

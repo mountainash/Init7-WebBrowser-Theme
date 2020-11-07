@@ -1,0 +1,50 @@
+{
+	"manifest_version": 2,
+	"version": "1.0",
+	"name": "Init7 - Rot",
+	"theme": {
+		"images": {
+			"theme_ntp_background": "images/theme_ntp_background.png"
+		},
+		"properties": {
+			"ntp_background_alignment": "top",
+			"ntp_background_repeat": "no-repeat",
+			"ntp_background_size": "contain"
+		},
+		"colors": {
+			"frame": [255, 255, 255],
+			"frame_inactive" : [204, 204, 204],
+			"toolbar": [235, 90, 109],
+			"toolbar_field": [239, 127, 142],
+			"toolbar_field_focus": [235, 90, 109],
+			"toolbar_field_border": [235, 90, 109],
+			"toolbar_field_border_focus": [235, 90, 109],
+			"toolbar_field_text": [29, 37, 46],
+			"toolbar_field_text_focus": [0, 0, 0],
+			"toolbar_field_highlight_text": [255, 255, 255],
+			"toolbar_field_separator": [235, 90, 109],
+			"toolbar_top_separator": [235, 90, 109],
+			"toolbar_bottom_separator": [235, 90, 109],
+			"toolbar_vertical_separator": [235, 90, 109],
+			"tab_text": [255, 255, 255],
+			"tab_selected": [235, 90, 109],
+			"tab_line": [235, 90, 109],
+			"tab_loading": [239, 127, 142],
+			"tab_background_text": [74, 74, 74],
+			"tab_background_text_inactive": [200, 200, 200],
+			"tab_background_separator": [195, 195, 195],
+			"popup": [255, 255, 255],
+			"popup_border": [235, 90, 109],
+			"popup_text": [235, 90, 109],
+			"popup_highlight": [235, 90, 109],
+			"popup_highlight_text": [255, 255, 255],
+			"icons_attention": [239, 127, 142],
+			"icons": [255, 255, 255],
+			"ntp_background": [255, 255, 255],
+			"ntp_text": [0, 0, 0],
+			"ntp_link": [255, 255, 255],
+			"bookmark_text": [255, 255, 255],
+			"button_background_hover": [239, 127, 142]
+		}
+	}
+}
