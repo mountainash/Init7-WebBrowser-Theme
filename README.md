@@ -5,7 +5,7 @@
 
 ## User Install
 1. [**Chrome Web Store**](https://chrome.google.com/webstore/detail/init7-red/dpknnolglkdbhlicgloigkoplpjenfje) Chromium _(Brave, Chrome, Edge, etc.)_
-1. [**Mozilla Add-ons**](https://addons.mozilla.org/en-US/firefox/addon/init7-rot/)  Firefox
+1. [**Mozilla Add-ons**](https://addons.mozilla.org/en-US/firefox/addon/init7-rot/) Firefox
 
 ## Support
 - [Raise an issue](https://github.com/mountainash/Init7-WebBrowser-Theme/issues)
@@ -26,7 +26,7 @@
 ## Contributors Help
 ### Theme Documentation
 - [Developer: Chrome Themes](https://developer.chrome.com/apps/themes)
-- [Chrome Theme Reference](https://docs.google.com/Doc?docid=0Aa86IE02TBXPZGtzZDU0NV85ZnFocnQzZGo)
+- [Chrome Theme Reference](https://docs.google.com/document/d/1jt9vdUY9O5IMm6Zoi2Kz0LWFfFZpvP69qjy6PoGsEoA/edit)
 - [Firefox Theme MDN](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/theme)
 
 ### Vendors Developer Dashboards
@@ -48,14 +48,24 @@
 Tints are in Hue-Saturation-Lightness (HSL) format, using floating-point numbers in the range `0 - 1.0`:
 
 - **Hue** is an absolute value, with `0` and `1` being red.
-- **Saturation** is relative to the currently provided image. `0.5` is no change, `0` is totally desaturated, and `1` is full saturation.
+- **Saturation** is relative to the currently provided image. `0.5` is no change, `0` is totally unsaturated, and `1` is full saturation.
 - **Lightness** is also relative, with `0.5` being no change, `0` as all pixels black, and `1` as all pixels white.
 
 You can alternatively use `-1.0` for any of the HSL values to specify no change.
+
+## Distribution
+
+### Chrome Web Store
+1. In a Chromium based browser, open **Settings** and go to **Extensions** (chrome://extensions/)
+1. Load the unpacked [`chromium/`](./chromium/) directory - check everything looks OK
+1. Zip the `chromium` directory `zip -r init7.zip chromium -x "**/.DS_Store*"`
+1. Upload it to the [Chrome Web Store](https://chrome.google.com/webstore/developer/dashboard)
+
+[Full official instructions](https://developer.chrome.com/docs/webstore/publish/)
 
 ### Developer Wishlist
 - [ ] Hope that Browsers implement an inactive setting for bookmark text (eg. `colors.bookmark_text_inactive` or `tints.buttons_inactive`)
 - [ ] Hope that Chromium implements a background image size setting (eg. `properties.ntp_background_size`)
 
 ## NOTE
-- This theme has not been endorsed or approved by [Init7](https://www.init7.net/) - and as such they can't support it. [Raise an issue](https://github.com/mountainash/Init7-WebBrowser-Theme/issues) if you have any problems or suggestions.
+- This theme has not been endorsed or approved by [Init7](https://www.init7.net/) and as such they can't support it. [Raise an issue](https://github.com/mountainash/Init7-WebBrowser-Theme/issues) if you have any problems or suggestions.
